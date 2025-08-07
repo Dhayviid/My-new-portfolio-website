@@ -12,15 +12,16 @@ export const AboutSection = () => {
               Passionate Web Developer & Tech Enthusiast
             </h3>
             <p className="text-muted-foreground">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-              reiciendis voluptates ipsa, suscipit delectus officiis nihil quia!
-              Cum unde nihil temporibus optio ratione et maxime.
+              <span className="text-primary font-semibold">Hi</span> there I’m
+              David, a front-end developer and tech enthusiast. I turn caffeine
+              and code into pixel-perfect, responsive experiences. I have a
+              love-hate relationship with CSS (mostly love).
             </p>
             <p className="text-muted-foreground">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum architecto tempora iure voluptates iste quae quo
-              repellendus facilis, quia perspiciatis qui libero debitis
-              reprehenderit magnam.
+              I craft fast, accessible websites using HTML, CSS, JavaScript, and
+              React. I geek out over performance tweaks and user-centric design.
+              When I’m not fixing 2 AM bugs, I’m sharing nerdy insights and
+              leveling up .
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -29,7 +30,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="https://www.canva.com/design/DAGkEvAifQs/gPL4KlqyLrGK_JNfzD1UnQ/edit?utm_content=DAGkEvAifQs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                href="https://www.canva.com/design/DAGkEvAifQs/e6sww_S5f1VntPnJZn2yKQ/view?utm_content=DAGkEvAifQs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf47ebbf4ab"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                 target="_blank"
               >
@@ -46,8 +47,8 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Web Development</h4>
                   <p className="text-muted-foreground">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eius, quia?
+                    Building fast, responsive websites with Tailwindcss,
+                    JavaScript, and React.
                   </p>
                 </div>
               </div>
@@ -60,8 +61,8 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">UI/UX Design</h4>
                   <p className="text-muted-foreground">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eius, quia?
+                    Crafting user-centered interfaces that feel intuitive and
+                    engaging
                   </p>
                 </div>
               </div>
@@ -74,8 +75,8 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Digital Marketing</h4>
                   <p className="text-muted-foreground">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eius, quia?
+                    Amplifying your brand with SEO, social media, and targeted
+                    campaigns
                   </p>
                 </div>
               </div>

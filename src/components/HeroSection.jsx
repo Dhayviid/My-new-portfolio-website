@@ -19,9 +19,9 @@ export const HeroSection = () => {
             </span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3 ">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet,
-            error minima maxime tempore quo impedit perferendis qui at maiores
-            tempora.
+            I build beautiful, stellar and responsive interfaces that feel as
+            good as they look. Front-end development is my playground, where
+            design meets performance.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
