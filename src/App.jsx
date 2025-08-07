@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { NotFound } from "./pages/Notfound";
-import { ToastProvider } from "@radix-ui/react-toast";
+import { Toaster } from "./components/ui/toaster";
 
 function App() {
   return (
     <>
-      <ToastProvider />
+      <Toaster />
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
