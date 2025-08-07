@@ -3,7 +3,7 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS landing page",
+    title: "Interactive landing page",
     description: "A beautiful landing page app using react and tailwindcss",
     image: "/public/Projects/Project-1.jpg",
     tags: ["React", "Tailwindcss", "Supabase"],
@@ -12,8 +12,9 @@ const projects = [
   },
   {
     id: 2,
-    title: "SaaS landing page",
-    description: "A beautiful landing page app using react and tailwindcss",
+    title: "Tech Startup Web Portal",
+    description:
+      "A mobile-first UX redesign that boosted user engagement by 40%, crafted through in-depth user research and interactive prototyping.",
     image: "/public/Projects/Project-2.jpg",
     tags: ["React", "Tailwindcss", "Supabase"],
     demoUrl: "#",
@@ -21,8 +22,9 @@ const projects = [
   },
   {
     id: 3,
-    title: "SaaS landing page",
-    description: "A beautiful landing page app using react and tailwindcss",
+    title: "Interactive Gateway to Your Platform",
+    description:
+      "A scalable e-commerce platform built with React and Node.js, engineered to handle high traffic and deliver seamless shopping journeys",
     image: "/public/Projects/Project-3.jpg",
     tags: ["React", "Tailwindcss", "Supabase"],
     demoUrl: "#",
@@ -30,8 +32,9 @@ const projects = [
   },
   {
     id: 4,
-    title: "SaaS landing page",
-    description: "A beautiful landing page app using react and tailwindcss",
+    title: "First Impression Hub for Your Software",
+    description:
+      "An end-to-end web application integrating real-time analytics and personalized dashboards to empower decision-makers",
     image: "/public/Projects/Project-4.jpg",
     tags: ["React", "Tailwindcss", "Supabase"],
     demoUrl: "#",
@@ -47,9 +50,9 @@ export const ProjectsSection = () => {
           Featured <span className="text-primary">Projects</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-          debitis exercitationem laborum eos dolore officia delectus ullam eum
-          quia laudantium!
+          Dive into a selection of our standout work, where innovation meets
+          impact. Each project highlights our dedication to solving real-world
+          challenges and creating memorable experiences.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

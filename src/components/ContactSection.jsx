@@ -34,10 +34,9 @@ export const ContactSection = () => {
           Get In <span className="text-primary">Touch</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
-          commodi odio assumenda, minus ipsum nisi voluptatum ipsa saepe!
-          Tempore numquam sapiente tempora impedit! Ea fuga voluptate modi.
-          Labore, porro aliquam!
+          Let’s Connect Have a project in mind or just want to say hello? We’re
+          always open to new ideas, collaborations, and conversations. Drop us a
+          message and we’ll get back to you shortly.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="space-y-8 ">
