@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Interactive landing page",
     description: "A beautiful landing page app using react and tailwindcss",
-    image: "/public/Projects/Project-1.jpg",
+    image: "/public/Projects/Project-1.png",
     tags: ["React", "Tailwindcss", "Supabase"],
     demoUrl: "#",
     githubUrl: "#",
@@ -15,7 +15,7 @@ const projects = [
     title: "Tech Startup Web Portal",
     description:
       "A mobile-first UX redesign that boosted user engagement by 40%, crafted through in-depth user research and interactive prototyping.",
-    image: "/public/Projects/Project-2.jpg",
+    image: "/public/Projects/Project-2.png",
     tags: ["React", "Tailwindcss", "Supabase"],
     demoUrl: "#",
     githubUrl: "#",
@@ -25,21 +25,21 @@ const projects = [
     title: "Interactive Gateway to Your Platform",
     description:
       "A scalable e-commerce platform built with React and Node.js, engineered to handle high traffic and deliver seamless shopping journeys",
-    image: "/public/Projects/Project-3.jpg",
+    image: "/public/Projects/Project-3.png",
     tags: ["React", "Tailwindcss", "Supabase"],
     demoUrl: "#",
     githubUrl: "#",
   },
-  {
-    id: 4,
-    title: "First Impression Hub for Your Software",
-    description:
-      "An end-to-end web application integrating real-time analytics and personalized dashboards to empower decision-makers",
-    image: "/public/Projects/Project-4.jpg",
-    tags: ["React", "Tailwindcss", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+  // {
+  //   id: 4,
+  //   title: "First Impression Hub for Your Software",
+  //   description:
+  //     "An end-to-end web application integrating real-time analytics and personalized dashboards to empower decision-makers",
+  //   image: "/Projects/",
+  //   tags: ["React", "Tailwindcss", "Supabase"],
+  //   demoUrl: "#",
+  //   githubUrl: "#",
+  // },
 ];
 
 export const ProjectsSection = () => {
