@@ -85,13 +85,22 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4">Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/david-donald-512809259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                  target="_blank"
+                >
                   <Linkedin />
                 </a>
-                <a href="" target="_blank">
+                <a
+                  href="https://www.facebook.com/share/1BwjMe6pKg/?mibextid=wwXIfr"
+                  target="_blank"
+                >
                   <Facebook />
                 </a>
-                <a href="" target="_blank">
+                <a
+                  href="https://www.instagram.com/dhayviid_king?utm_source=qr"
+                  target="_blank"
+                >
                   <Instagram />
                 </a>
               </div>

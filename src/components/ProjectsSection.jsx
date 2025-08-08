@@ -4,9 +4,10 @@ const projects = [
   {
     id: 1,
     title: "Interactive landing page",
-    description: "A beautiful landing page app using react and tailwindcss",
-    image: "/public/Projects/Project-1.png",
-    tags: ["React", "Tailwindcss", "Supabase"],
+    description:
+      "A beautiful multi-page app using react, javascript and tailwindcss",
+    image: "/Projects/Project-1.png",
+    tags: ["React", "Tailwindcss", "Javascript"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -15,8 +16,8 @@ const projects = [
     title: "Tech Startup Web Portal",
     description:
       "A mobile-first UX redesign that boosted user engagement by 40%, crafted through in-depth user research and interactive prototyping.",
-    image: "/public/Projects/Project-2.png",
-    tags: ["React", "Tailwindcss", "Supabase"],
+    image: "/Projects/Project-2.png",
+    tags: ["React", "Tailwindcss", "Javascript"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -24,9 +25,9 @@ const projects = [
     id: 3,
     title: "Interactive Gateway to Your Platform",
     description:
-      "A scalable e-commerce platform built with React and Node.js, engineered to handle high traffic and deliver seamless shopping journeys",
-    image: "/public/Projects/Project-3.png",
-    tags: ["React", "Tailwindcss", "Supabase"],
+      "A scalable Job application platform built with React and Node.js, engineered to handle high traffic and deliver seamless Job application journeys",
+    image: "/Projects/Project-3.png",
+    tags: ["React", "Tailwindcss", "Node.js"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -105,7 +106,7 @@ export const ProjectsSection = () => {
         </div>
         <div className="text-center mt-12 ">
           <a
-            href=""
+            href="https://github.com/Dhayviid"
             target="_blank"
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
           >
