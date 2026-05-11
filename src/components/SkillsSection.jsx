@@ -5,24 +5,24 @@ const skills = [
   //Frontend
   { name: "HTML/CSS", level: 95, category: "frontend" },
   { name: "Tailwindcss", level: 80, category: "frontend" },
-  { name: "Javascript", level: 65, category: "frontend" },
-  { name: "Typescript", level: 10, category: "frontend" },
-  { name: "React", level: 30, category: "frontend" },
+  { name: "Javascript", level: 85, category: "frontend" },
+  { name: "Typescript", level: 60, category: "frontend" },
+  { name: "React", level: 70, category: "frontend" },
   { name: "Next.JS", level: 0, category: "frontend" },
   //Backend
   { name: "NodeJS", level: 0, category: "backend" },
   { name: "Python", level: 5, category: "backend" },
   //Tools
-  { name: "Git/GitHub", level: 75, category: "tools" },
-  { name: "VS Code", level: 90, category: "tools" },
-  { name: "Redux Toolkit", level: 0, category: "tools" },
+  { name: "Git/GitHub", level: 85, category: "tools" },
+  { name: "VS Code", level: 99, category: "tools" },
+  { name: "Redux Toolkit", level: 40, category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
   const filteredSkills = skills.filter(
-    (skill) => activeCategory === "all" || skill.category === activeCategory
+    (skill) => activeCategory === "all" || skill.category === activeCategory,
   );
   return (
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">
@@ -40,7 +40,7 @@ export const SkillsSection = () => {
                 "px-5 py-2 rounded-full transition-colors duration-300 capitalize",
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
-                  : "bg-secondary/70 text-foreground hover:bg-secondary"
+                  : "bg-secondary/70 text-foreground hover:bg-secondary",
               )}
             >
               {category}
